@@ -1,0 +1,522 @@
+/* ==========================================================================
+   FNM 2.0 Learning UI & Custom Callouts for UMSCHULUNG_FIDPA_FNM
+   ========================================================================== */
+
+/* --- 1. Interactive DataviewJS Dashboard Grid & Cards --- */
+.fnm-dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 14px;
+  margin: 16px 0 22px 0;
+}
+
+.fnm-card {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 16px 18px;
+  box-shadow: var(--shadow-s);
+  transition: border-color 0.2s ease, transform 0.15s ease;
+}
+
+.fnm-card:hover {
+  border-color: var(--interactive-accent);
+}
+
+.fnm-card h3,
+.fnm-card h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.02em;
+  color: var(--text-normal);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.fnm-progress-container {
+  background-color: var(--background-modifier-border);
+  border-radius: 999px;
+  overflow: hidden;
+  height: 11px;
+  width: 100%;
+  margin: 10px 0 8px 0;
+}
+
+.fnm-progress-bar {
+  background: linear-gradient(90deg, var(--interactive-accent), #38bdf8);
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease-in-out;
+}
+
+.fnm-progress-bar--ap1 {
+  background: linear-gradient(90deg, #10b981, #34d399);
+}
+
+.fnm-progress-bar--ap2 {
+  background: linear-gradient(90deg, #6366f1, #38bdf8);
+}
+
+.fnm-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: var(--text-muted);
+}
+
+.fnm-cluster-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 12px 0 20px 0;
+}
+
+.fnm-cluster-row {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.fnm-cluster-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.92em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.fnm-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.fnm-badge--due {
+  background-color: rgba(239, 68, 68, 0.18);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+
+.fnm-badge--progress {
+  background-color: rgba(245, 158, 11, 0.18);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+
+.fnm-badge--done {
+  background-color: rgba(16, 185, 129, 0.18);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.fnm-badge--open {
+  background-color: rgba(148, 163, 184, 0.15);
+  color: var(--text-muted);
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* --- 2. Custom FNM 2.0 Callouts --- */
+.callout[data-callout="operator"] {
+  --callout-color: 245, 158, 11; /* Amber/Gold: IHK ZPA Operator */
+  --callout-icon: "lucide-award";
+}
+
+.callout[data-callout="falle"] {
+  --callout-color: 239, 68, 68; /* Crimson/Red: Kontrast-Matrix & IHK-Falle */
+  --callout-icon: "lucide-alert-triangle";
+}
+
+.callout[data-callout="selfcheck"] {
+  --callout-color: 16, 185, 129; /* Emerald/Green: Selbst-Checkliste Teil A */
+  --callout-icon: "lucide-check-circle-2";
+}
+
+.callout[data-callout="faded"] {
+  --callout-color: 99, 102, 241; /* Indigo/Violet: Faded Worked Example */
+  --callout-icon: "lucide-puzzle";
+}
+
+.callout[data-callout="dpa"] {
+  --callout-color: 6, 182, 212; /* Cyan/Teal: DPA-Brille AP2 & 40h-Projekt */
+  --callout-icon: "lucide-target";
+}
+
+/* --- 3. Visual Polish for Pyramidenschema® SVGs & Reading Flow --- */
+.markdown-preview-view img[src$="_Pyramide.svg"],
+.markdown-rendered img[src$="_Pyramide.svg"],
+.internal-embed[src$="_Pyramide.svg"] img {
+  border-radius: 12px;
+  border: 1px solid var(--background-modifier-border);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  margin: 10px 0;
+}
+
+.markdown-preview-view img[src$="00_Mappa_Cluster_Globale.svg"],
+.internal-embed[src$="00_Mappa_Cluster_Globale.svg"] img {
+  border-radius: 12px;
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* --- 4. Interactive FNM DataviewJS Widgets (.fnm-w-*) --- */
+.fnm-w-box {
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 14px 0;
+  color: var(--text-normal);
+  font-size: 0.92em;
+}
+
+.fnm-w-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--background-modifier-border);
+  margin-bottom: 12px;
+}
+
+.fnm-w-title {
+  font-size: 1.05em;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text-normal);
+}
+
+.fnm-w-sub {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  margin: 2px 0 0 0;
+}
+
+.fnm-w-progress-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  font-size: 0.84em;
+}
+
+.fnm-w-progress-track {
+  width: 72px;
+  height: 8px;
+  border-radius: 999px;
+  background-color: var(--background-modifier-border);
+  overflow: hidden;
+}
+
+.fnm-w-progress-fill {
+  height: 100%;
+  background-color: var(--color-green, #10b981);
+  transition: width 0.25s ease;
+}
+
+.fnm-w-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.fnm-w-tab,
+.fnm-w-btn {
+  padding: 6px 11px;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  font-size: 0.84em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.fnm-w-tab:hover,
+.fnm-w-btn:hover {
+  border-color: var(--interactive-accent);
+}
+
+.fnm-w-tab.is-active,
+.fnm-w-btn.is-active,
+.fnm-w-btn--primary {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent, #ffffff);
+  border-color: var(--interactive-accent);
+}
+
+.fnm-w-ihk-bar {
+  display: flex;
+  width: 100%;
+  height: 46px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  padding: 2px;
+  gap: 2px;
+  margin: 10px 0;
+}
+
+.fnm-w-ihk-seg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.78em;
+  font-weight: 700;
+  color: var(--text-on-accent, #ffffff);
+  cursor: pointer;
+  line-height: 1.15;
+  padding: 2px 4px;
+}
+
+.fnm-w-ihk-seg.is-active {
+  outline: 2px solid var(--text-normal);
+  outline-offset: 1px;
+}
+
+.fnm-w-seg--ap1 { background-color: var(--color-blue, #3b82f6); }
+.fnm-w-seg--proj { background-color: var(--color-green, #10b981); }
+.fnm-w-seg--proz { background-color: var(--color-orange, #f59e0b); }
+.fnm-w-seg--dat { background-color: var(--interactive-accent); }
+.fnm-w-seg--wiso { background-color: var(--color-red, #ef4444); }
+
+.fnm-w-panel {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-top: 10px;
+}
+
+.fnm-w-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.fnm-w-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+.fnm-w-role-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.fnm-w-role-btn {
+  text-align: left;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  font-size: 0.84em;
+  cursor: pointer;
+}
+
+.fnm-w-role-btn.is-active {
+  background-color: var(--interactive-accent);
+  color: var(--text-on-accent, #ffffff);
+  border-color: var(--interactive-accent);
+  font-weight: 600;
+}
+
+.fnm-w-flip {
+  text-align: left;
+  padding: 11px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  cursor: pointer;
+  min-height: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.fnm-w-flip:hover {
+  border-color: var(--interactive-accent);
+}
+
+.fnm-w-drill-card {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.fnm-w-drill-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.fnm-w-textarea {
+  width: 100%;
+  min-height: 54px;
+  resize: vertical;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-secondary);
+  color: var(--text-normal);
+  padding: 8px 10px;
+  font-size: 0.86em;
+  margin: 6px 0 8px 0;
+  box-sizing: border-box;
+}
+
+.fnm-w-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.fnm-w-hint,
+.fnm-w-sol {
+  margin-top: 8px;
+  padding: 9px 11px;
+  border-radius: 8px;
+  background-color: var(--background-secondary);
+  border: 1px solid var(--background-modifier-border);
+  font-size: 0.85em;
+}
+
+.fnm-w-pill {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.76em;
+  font-weight: 600;
+}
+
+.fnm-w-pill--ok {
+  background-color: rgba(16, 185, 129, 0.16);
+  color: var(--color-green, #10b981);
+  border: 1px solid rgba(16, 185, 129, 0.35);
+}
+
+.fnm-w-pill--warn {
+  background-color: rgba(245, 158, 11, 0.16);
+  color: var(--color-orange, #f59e0b);
+  border: 1px solid rgba(245, 158, 11, 0.35);
+}
+
+.fnm-w-pill--err {
+  background-color: rgba(239, 68, 68, 0.16);
+  color: var(--color-red, #ef4444);
+  border: 1px solid rgba(239, 68, 68, 0.35);
+}
+
+.fnm-w-pill--info {
+  background-color: rgba(59, 130, 246, 0.16);
+  color: var(--color-blue, #3b82f6);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+}
+
+.fnm-w-timer-display {
+  font-family: var(--font-monospace);
+  font-size: 2.1em;
+  font-weight: 700;
+  text-align: center;
+  margin: 6px 0 10px 0;
+}
+
+.fnm-w-phase-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  margin-bottom: 6px;
+  font-size: 0.85em;
+}
+
+.fnm-w-phase-row.is-active {
+  border-color: var(--interactive-accent);
+  background-color: var(--background-secondary);
+}
+
+.fnm-w-rm-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--background-modifier-border);
+  background-color: var(--background-primary);
+  cursor: pointer;
+  font-size: 0.85em;
+}
+
+.fnm-w-rm-card.is-done {
+  border-color: var(--color-green, #10b981);
+  opacity: 0.88;
+}
+
+.fnm-w-save-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+}
+
+/* Active-Cloze (Generation Effect): masked keywords, hover/focus to reveal */
+.fnm-key {
+  display: inline-block;
+  padding: 1px 7px;
+  margin: 0 2px;
+  border-radius: 6px;
+  background-color: rgba(92, 245, 158, 0.12);
+  border: 1px dashed rgba(92, 245, 158, 0.45);
+  color: transparent;
+  text-shadow: 0 0 8px rgba(226, 232, 240, 0.55);
+  user-select: none;
+  cursor: pointer;
+  transition: color 0.18s ease, text-shadow 0.18s ease, background-color 0.18s ease, border-color 0.18s ease;
+}
+
+.fnm-key:hover,
+.fnm-key:focus,
+.fnm-key:active {
+  color: var(--text-normal);
+  text-shadow: none;
+  background-color: rgba(92, 245, 158, 0.22);
+  border-color: var(--interactive-accent);
+  user-select: text;
+}

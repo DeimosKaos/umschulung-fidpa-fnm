@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Obsidian volatile state (evita conflitti di sync/commit inutili)
+UMSCHULUNG_FIDPA_FNM/.obsidian/workspace.json
+UMSCHULUNG_FIDPA_FNM/.obsidian/workspace-mobile.json
+UMSCHULUNG_FIDPA_FNM/.obsidian/cache
+UMSCHULUNG_FIDPA_FNM/.trash/
+
+# Python cache
+__pycache__/
+*.pyc

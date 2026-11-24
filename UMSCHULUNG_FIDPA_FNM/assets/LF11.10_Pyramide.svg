@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="spitzeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="410" rx="14" fill="url(#bgGrad)"/>
+  <text x="550" y="30" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.2">PYRAMIDENSCHEMA® · LF 11.10: PROZESSDOKUMENTATION, COMPLIANCE &amp; QUALITÄTSMANAGEMENT</text>
+
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="url(#spitzeGrad)" opacity="0.92"/>
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="none" stroke="#a5f3fc" stroke-width="1.5"/>
+  <text x="550" y="78" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">Prozessdokumentation, ISO 9001 (PDCA) und DSGVO/GoBD-Compliance</text>
+  <text x="550" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">machen datengetriebene Geschäftsprozesse wartbar, messbar und rechtssicher.</text>
+
+  <line x1="340" y1="131" x2="205" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="550" y1="131" x2="550" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="760" y1="131" x2="895" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <rect x="40" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.8"/>
+  <rect x="40" y="185" width="320" height="36" rx="12" fill="#8b5cf6" opacity="0.22"/>
+  <text x="56" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#c4b5fd">1. Dokumentation (11.1.5)</text>
+  <text x="56" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Entwickler-Doku: Architektur,</text>
+  <text x="56" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  APIs, ERD, Deployment</text>
+  <text x="56" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Prozess-Doku: BPMN, Rollen, SLAs</text>
+  <text x="56" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Benutzer-Doku: praxisnahe</text>
+  <text x="56" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Anleitungen für Fachanwender</text>
+
+  <rect x="390" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="1.8"/>
+  <rect x="390" y="185" width="320" height="36" rx="12" fill="#06b6d4" opacity="0.22"/>
+  <text x="406" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#67e8f9">2. QM &amp; PDCA (ISO 9001)</text>
+  <text x="406" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• ISO 9001: dokumentierte &amp;</text>
+  <text x="406" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  messbare Qualitätsprozesse</text>
+  <text x="406" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• PDCA-Regelkreis:</text>
+  <text x="406" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Plan → Do → Check → Act</text>
+  <text x="406" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Sichert kontinuierliche</text>
+  <text x="406" y="350" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Verbesserung (KVP)</text>
+
+  <rect x="740" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.8"/>
+  <rect x="740" y="185" width="320" height="36" rx="12" fill="#10b981" opacity="0.22"/>
+  <text x="756" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#6ee7b7">3. Compliance &amp; DSGVO</text>
+  <text x="756" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• DSGVO: Zweckbindung,</text>
+  <text x="756" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Datensparsamkeit, Löschfristen</text>
+  <text x="756" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Pseudonymisierung / Anonymisierung</text>
+  <text x="756" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  für Process Mining &amp; Analytics</text>
+  <text x="756" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• GoBD: Revisionssicherheit</text>
+  <text x="756" y="350" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  bei Geschäfts-/Buchungsdaten</text>
+</svg>

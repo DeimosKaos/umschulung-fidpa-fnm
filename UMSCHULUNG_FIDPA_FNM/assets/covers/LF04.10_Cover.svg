@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="auto">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#450a0a"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#060b16"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" rx="18" fill="url(#bgGlow)"/>
+  <rect width="1200" height="675" rx="18" fill="url(#isoGrid)" opacity="0.6"/>
+  
+  <g transform="translate(600, 337)">
+    <polygon points="0,-165 170,115 -170,115" fill="#f43f5e" fill-opacity="0.22" stroke="#f43f5e" stroke-width="4" filter="url(#glow)"/>
+    <polygon points="0,-95 100,75 -100,75" fill="#fb923c" fill-opacity="0.25" stroke="#fb923c" stroke-width="2.5"/>
+    <circle cx="0" cy="10" r="24" fill="#38bdf8" filter="url(#glow)"/>
+  </g>
+  <path d="M 24 54 L 24 24 L 54 24" fill="none" stroke="#f43f5e" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 24 L 1176 24 L 1176 54" fill="none" stroke="#f43f5e" stroke-width="2" opacity="0.45"/>
+  <path d="M 24 621 L 24 651 L 54 651" fill="none" stroke="#f43f5e" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 651 L 1176 651 L 1176 621" fill="none" stroke="#f43f5e" stroke-width="2" opacity="0.45"/>
+</svg>

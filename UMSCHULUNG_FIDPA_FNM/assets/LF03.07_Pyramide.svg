@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 3.07 – IPv6, IP-Routing &amp; IP-Hilfsdienste (DHCP, NAT, Proxy)</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">128-Bit-Adressen, Wegfindung zwischen Netzen sowie automatische Vergabe &amp; Übersetzung (Kersken 5.6.2)</text>
+
+  <!-- Col 1: IPv6 -->
+  <rect x="48" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="207" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. IPv6 (128 Bit, RFC 2460)</text>
+
+  <rect x="66" y="122" width="282" height="106" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Schreibweise &amp; Struktur</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• 8× 4 Hex-Ziffern (mit Doppelpunkt)</text>
+  <text x="80" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Kürzen: führende 0 weg + einmalig ::</text>
+  <text x="80" y="197" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Global Unicast: 48 Präfix + 16 Site + 64 ID</text>
+  <text x="80" y="214" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• 2000::/3 Global | FE80::/10 Link-Local</text>
+
+  <rect x="66" y="236" width="282" height="132" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="256" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Header &amp; Übergang</text>
+  <text x="80" y="276" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Fester Basis-Header: 40 Byte (320 Bit)</text>
+  <text x="80" y="295" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Flow Label (QoS) &amp; Hop Limit (= TTL)</text>
+  <text x="80" y="314" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Optionen in Erweiterungs-Headern</text>
+  <text x="80" y="334" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Tunneling: IPv6 in IPv4 verpacken!</text>
+
+  <!-- Col 2: IP-Routing -->
+  <rect x="391" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. IP-Routing &amp; Protokolle</text>
+
+  <rect x="409" y="122" width="282" height="106" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="142" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Grundprinzip &amp; Routing-Tabelle</text>
+  <text x="423" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Forwarding (2 Interfaces) vs. Routing</text>
+  <text x="423" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Default-Gateway für unbekannte Netze</text>
+  <text x="423" y="197" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Hop = 1 Router; TTL max. 255 Hops</text>
+  <text x="423" y="214" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Metrik = „Kosten“ einer Route</text>
+
+  <rect x="409" y="236" width="282" height="132" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="256" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Interior (AS) vs. Exterior</text>
+  <text x="423" y="276" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• RIP: max. 15 Hops, Split Horizon</text>
+  <text x="423" y="295" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• OSPF: Link-State (Dijkstra), Areas,</text>
+  <text x="431" y="311" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Hello-Pakete, LSA-Flooding</text>
+  <text x="423" y="331" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• BGP: zwischen Autonomen Systemen,</text>
+  <text x="431" y="347" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Pfadvektor über TCP-Port 179</text>
+
+  <!-- Col 3: DHCP, NAT/PAT, Proxy -->
+  <rect x="734" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="893" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. DHCP, NAT/PAT &amp; Proxy</text>
+
+  <rect x="752" y="122" width="282" height="80" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="142" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">DHCP (automatische IP-Vergabe)</text>
+  <text x="766" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• BOOTREQUEST an 255.255.255.255</text>
+  <text x="766" y="179" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• DHCP-Pool + Lease (Server ausschließen!)</text>
+
+  <rect x="752" y="210" width="282" height="90" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="230" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">NAT &amp; IP-Masquerading (PAT)</text>
+  <text x="766" y="249" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Übersetzt private in öffentliche IPs</text>
+  <text x="766" y="267" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• PAT: 1 öffentliche IP für alle Clients</text>
+  <text x="766" y="285" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">über Ports → Schutz von innen nach außen</text>
+
+  <rect x="752" y="308" width="282" height="60" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="328" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Proxyserver (Application Gateway)</text>
+  <text x="766" y="347" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Stellvertreter + Webcache (z. B. Squid)</text>
+</svg>

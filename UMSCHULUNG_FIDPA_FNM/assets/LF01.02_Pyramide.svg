@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%" style="background:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gN1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spitze -->
+  <rect x="140" y="18" width="820" height="96" rx="12" fill="url(#gTop)" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="550" y="47" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="1.2">SPITZE · KERNPROBLEM &amp; ZIEL (LF 1.02)</text>
+  <text x="550" y="74" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Vom Rechenknecht zum universellen Algorithmenautomaten</text>
+  <text x="550" y="98" text-anchor="middle" fill="#cbd5e1" font-size="13.5">Stellenwertsystem, mechanische/elektromechanische Vorläufer &amp; 4 Rechner-Generationen</text>
+
+  <!-- Verbindungslinien -->
+  <path d="M550 114 L195 148 M550 114 L550 148 M550 114 L905 148" stroke="#475569" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Nukleus 1 -->
+  <rect x="30" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="176" text-anchor="middle" fill="#818cf8" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 1 · MECHANIK &amp; Z3</text>
+  <line x1="55" y1="188" x2="335" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="55" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Meilensteine vor 1945:</text>
+  <text x="55" y="234" fill="#cbd5e1" font-size="12.5">• Abakus + Stellenwertsystem + Null</text>
+  <text x="55" y="253" fill="#cbd5e1" font-size="12.5">• Pascal (Addierm.) &amp; Leibniz (4 Grundr.)</text>
+  <text x="55" y="272" fill="#cbd5e1" font-size="12.5">• Babbage: Analytical Engine (Konzept)</text>
+  <text x="55" y="291" fill="#cbd5e1" font-size="12.5">  + Ada Lovelace (1. Programmiererin)</text>
+  <text x="55" y="318" fill="#38bdf8" font-size="13" font-weight="600">• Zuse Z3 (1941): elektromechanisch</text>
+  <text x="55" y="337" fill="#cbd5e1" font-size="12.5">  mit Relais, binär (22 Bit) &amp; Plankalkül</text>
+  <text x="55" y="358" fill="#94a3b8" font-size="12">Al-Chwarizmi -&gt; Begriff „Algorithmus“</text>
+
+  <!-- Nukleus 2 -->
+  <rect x="385" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="176" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 2 · 4 GENERATIONEN</text>
+  <line x1="410" y1="188" x2="690" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="410" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Elektronische Entwicklung:</text>
+  <text x="410" y="234" fill="#cbd5e1" font-size="12.5">• 1. Gen (1940er): Elektronenröhren</text>
+  <text x="410" y="253" fill="#cbd5e1" font-size="12.5">  (ENIAC, Von-Neumann, Lochkarten)</text>
+  <text x="410" y="272" fill="#cbd5e1" font-size="12.5">• 2. Gen (1950er): Transistoren (Si)</text>
+  <text x="410" y="291" fill="#cbd5e1" font-size="12.5">• 3. Gen (1960er): ICs / Chips (IBM,</text>
+  <text x="410" y="308" fill="#cbd5e1" font-size="12.5">  Mainframes, DEC PDP/VAX)</text>
+  <text x="410" y="330" fill="#34d399" font-size="12.5" font-weight="600">• 4. Gen (ab 1971): Mikroprozessor</text>
+  <text x="410" y="349" fill="#cbd5e1" font-size="12.5">  (Intel 4004, Xerox PARC GUI/Ethernet,</text>
+  <text x="410" y="366" fill="#cbd5e1" font-size="12.5">  Apple II, IBM-PC, C64, WinTel)</text>
+
+  <!-- Nukleus 3 -->
+  <rect x="740" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#fbbf24" stroke-width="2"/>
+  <text x="905" y="176" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 3 · PRAXIS &amp; IHK-FALLE</text>
+  <line x1="765" y1="188" x2="1045" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="765" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Ausblick (keine offiz. 5. Gen.):</text>
+  <text x="765" y="234" fill="#cbd5e1" font-size="12.5">• Mobile/Wearables, Multicore, ARM</text>
+  <text x="765" y="253" fill="#cbd5e1" font-size="12.5">• Quantencomputer (QBits: 0 &amp; 1 zugl.)</text>
+  <text x="765" y="272" fill="#cbd5e1" font-size="12.5">• KI / Machine Learning &amp; Big Data</text>
+  <text x="765" y="300" fill="#f87171" font-size="13.5" font-weight="600">Typische IHK-Fallen:</text>
+  <text x="765" y="320" fill="#fca5a5" font-size="12.5">• Elektrisch (Motor) ≠ Elektromecha-</text>
+  <text x="765" y="337" fill="#fca5a5" font-size="12.5">  nisch (Relais/Z3) ≠ Elektronisch</text>
+  <text x="765" y="354" fill="#fca5a5" font-size="12.5">  (Röhre/Transistor ohne Mechanik)!</text>
+</svg>

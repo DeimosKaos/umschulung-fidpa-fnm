@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 3.03 – Netzwerke klassifizieren: Reichweite, Topologie &amp; Zentralisierung</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Drei Achsen zur Einordnung jedes Netzwerks plus die wichtigsten Serverdienste (Kersken 5.3)</text>
+
+  <!-- Column 1: Reichweite -->
+  <rect x="48" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="207" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Reichweite (Geografie)</text>
+
+  <rect x="66" y="122" width="282" height="54" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="143" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">LAN (Local Area Network)</text>
+  <text x="80" y="162" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Raum, Gebäude, Firmengelände (Ethernet/WLAN)</text>
+
+  <rect x="66" y="184" width="282" height="54" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="205" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">MAN (Metropolitan Area Network)</text>
+  <text x="80" y="224" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Stadt / Region, Umkreis ~100 km+ (z. B. NetCologne)</text>
+
+  <rect x="66" y="246" width="282" height="54" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="267" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">WAN (Wide Area Network)</text>
+  <text x="80" y="286" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Land / mehrere Städte (z. B. DFN); oft Sammelbegriff</text>
+
+  <rect x="66" y="308" width="282" height="58" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="329" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">GAN (Global Area Network)</text>
+  <text x="80" y="348" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Weltweit; Backbone: Glasfaser + DWDM</text>
+
+  <!-- Column 2: Topologie -->
+  <rect x="391" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. Topologie (Aufbau)</text>
+
+  <rect x="409" y="122" width="282" height="52" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="143" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Bustopologie</text>
+  <text x="423" y="161" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">1 Strang + Terminatoren (Koaxial-Ethernet)</text>
+
+  <rect x="409" y="182" width="282" height="52" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="203" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Sterntopologie</text>
+  <text x="423" y="221" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Zentrales Gerät (Hub = log. Bus / Switch = Stern)</text>
+
+  <rect x="409" y="242" width="282" height="52" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="263" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Ringtopologie</text>
+  <text x="423" y="281" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Geschlossener Ring, feste Richtung (Token Ring)</text>
+
+  <rect x="409" y="302" width="282" height="64" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="423" y="323" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Baumtopologie + Wichtig!</text>
+  <text x="423" y="341" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Stamm + Verästelungen für Segmente</text>
+  <text x="423" y="357" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">Physikalische ≠ logische Topologie möglich!</text>
+
+  <!-- Column 3: Zentralisierung & Server -->
+  <rect x="734" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="893" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Zentralisierung &amp; Server</text>
+
+  <rect x="752" y="122" width="282" height="66" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="143" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Client-Server vs. Peer-to-Peer</text>
+  <text x="766" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• C/S: Zentraler Dienst (Daemon/Service)</text>
+  <text x="766" y="177" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• P2P: Gleichberechtigte Rechner (oft Mix)</text>
+
+  <text x="756" y="212" fill="#e2e8f0" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="700">Die 6 Servertypen nach Kersken:</text>
+  <text x="756" y="234" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">1. Fileserver (Freigaben + Zugriffsrechte)</text>
+  <text x="756" y="254" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">2. Printserver (gemeinsame Drucker/Treiber)</text>
+  <text x="756" y="274" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">3. Mailserver (SMTP senden, POP3/IMAP holen)</text>
+  <text x="756" y="294" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">4. Webserver (HTTP/HTML; intern = Intranet)</text>
+  <text x="756" y="314" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">5. Verzeichnisdienst (SSO, User, OpenLDAP)</text>
+  <text x="756" y="334" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">6. Anwendungs-/Terminalserver (SSH, X)</text>
+  <text x="756" y="362" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Bei hoher Last: Load Balancing auf mehrere Server</text>
+</svg>

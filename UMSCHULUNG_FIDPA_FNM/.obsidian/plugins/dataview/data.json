@@ -1,0 +1,8 @@
+{
+  "enableDataviewJs": true,
+  "enableInlineDataviewJs": true,
+  "enableHtmlSnippets": true,
+  "prettyRenderInlineFields": true,
+  "inlineQueryPrefix": "=",
+  "inlineJsQueryPrefix": "$="
+}

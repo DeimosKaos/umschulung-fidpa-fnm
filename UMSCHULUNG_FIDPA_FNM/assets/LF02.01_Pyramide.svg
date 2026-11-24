@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1100" height="410" rx="14" fill="#0f172a"/>
+  <path d="M 550 112 L 550 142 L 190 142 L 190 170" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 550 112 L 550 170" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 550 112 L 550 142 L 910 142 L 910 170" fill="none" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="140" y="24" width="820" height="88" rx="12" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+  <text x="550" y="52" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="700" letter-spacing="1">SPITZE · KERNAUSSAGE</text>
+  <text x="550" y="78" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Transistoren &amp; Logikgatter setzen 1/0-Logik physikalisch in Rechenwerke um</text>
+  <text x="550" y="99" text-anchor="middle" fill="#bfdbfe" font-size="13">(Strom ein/aus → Grundgatter → kombinierte Schaltnetze wie Halb- und Volladdierer)</text>
+
+  <rect x="25" y="174" width="330" height="210" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="190" y="204" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700">NUKLEUS 1 · SCHALTER &amp; TRANSISTOR</text>
+  <line x1="50" y1="218" x2="330" y2="218" stroke="#334155" stroke-width="1"/>
+  <text x="190" y="248" text-anchor="middle" fill="#f1f5f9" font-size="13" font-weight="600">1 = Strom ein · 0 = Strom aus</text>
+  <text x="190" y="278" text-anchor="middle" fill="#cbd5e1" font-size="12.5">Reihenschaltung = AND (beide zu)</text>
+  <text x="190" y="300" text-anchor="middle" fill="#cbd5e1" font-size="12.5">Parallelschaltung = OR (mind. einer zu)</text>
+  <text x="190" y="332" text-anchor="middle" fill="#94a3b8" font-size="12.5">MOS-Transistor: elektronischer</text>
+  <text x="190" y="352" text-anchor="middle" fill="#94a3b8" font-size="12.5">Schalter ohne Mechanik (CPU-Basis)</text>
+
+  <rect x="385" y="174" width="330" height="210" rx="12" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="204" text-anchor="middle" fill="#34d399" font-size="14" font-weight="700">NUKLEUS 2 · LOGIKGATTER</text>
+  <line x1="410" y1="218" x2="690" y2="218" stroke="#334155" stroke-width="1"/>
+  <text x="550" y="248" text-anchor="middle" fill="#cbd5e1" font-size="12.5">NOT · AND · OR · XOR</text>
+  <text x="550" y="280" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">NAND &amp; NOR (besonders einfach):</text>
+  <text x="550" y="302" text-anchor="middle" fill="#cbd5e1" font-size="12.5">NAND = ¬(A ∧ B) (nur 1&amp;1 → 0)</text>
+  <text x="550" y="324" text-anchor="middle" fill="#cbd5e1" font-size="12.5">NOR  = ¬(A ∨ B) (nur 0&amp;0 → 1)</text>
+  <text x="550" y="356" text-anchor="middle" fill="#94a3b8" font-size="12.5">Aus NAND allein lässt sich alles bauen!</text>
+
+  <rect x="745" y="174" width="330" height="210" rx="12" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="910" y="204" text-anchor="middle" fill="#fbbf24" font-size="14" font-weight="700">NUKLEUS 3 · ADDIERER (CPU)</text>
+  <line x1="770" y1="218" x2="1050" y2="218" stroke="#334155" stroke-width="1"/>
+  <text x="910" y="248" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Halbaddierer (2 Eingänge A, B):</text>
+  <text x="910" y="268" text-anchor="middle" fill="#cbd5e1" font-size="12.5">• Summe S = A ⊕ B (XOR)</text>
+  <text x="910" y="288" text-anchor="middle" fill="#cbd5e1" font-size="12.5">• Übertrag Ü = A ∧ B (AND)</text>
+  <text x="910" y="322" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">Volladdierer (A, B + Übertrag Cin):</text>
+  <text x="910" y="344" text-anchor="middle" fill="#94a3b8" font-size="12.5">2 Halbaddierer + 1 OR-Gatter</text>
+  <text x="910" y="364" text-anchor="middle" fill="#94a3b8" font-size="12.5">→ Basis für jede Binär-Addition</text>
+</svg>

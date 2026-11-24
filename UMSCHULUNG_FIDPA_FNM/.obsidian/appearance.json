@@ -1,0 +1,9 @@
+{
+  "showRibbon": false,
+  "accentColor": "#5cf59e",
+  "cssTheme": "Cupertino",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "fnm-learning-ui"
+  ]
+}

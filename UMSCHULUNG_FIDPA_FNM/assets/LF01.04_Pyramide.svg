@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%" style="background:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gN1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spitze -->
+  <rect x="140" y="18" width="820" height="96" rx="12" fill="url(#gTop)" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="550" y="47" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="1.2">SPITZE · KERNPROBLEM &amp; ZIEL (LF 1.04)</text>
+  <text x="550" y="74" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Knappheit steuern: Märkte, Preise &amp; Wirtschaftskreislauf</text>
+  <text x="550" y="98" text-anchor="middle" fill="#cbd5e1" font-size="13.5">Ökonomisches Prinzip, Produktionsfaktoren, Marktformen &amp; Soziale Marktwirtschaft</text>
+
+  <!-- Verbindungslinien -->
+  <path d="M550 114 L195 148 M550 114 L550 148 M550 114 L905 148" stroke="#475569" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Nukleus 1 -->
+  <rect x="30" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="176" text-anchor="middle" fill="#818cf8" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 1 · GRUNDLAGEN &amp; PRINZIP</text>
+  <line x1="55" y1="188" x2="335" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="55" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Knappheit &amp; Ökonomisches Prinzip:</text>
+  <text x="55" y="234" fill="#cbd5e1" font-size="12.5">• Maximalprinzip: fixer Input -&gt; max. Out</text>
+  <text x="55" y="253" fill="#cbd5e1" font-size="12.5">• Minimalprinzip: fixes Ziel -&gt; min. Input</text>
+  <text x="55" y="280" fill="#f1f5f9" font-size="13.5" font-weight="600">Produktionsfaktoren (VWL):</text>
+  <text x="55" y="300" fill="#cbd5e1" font-size="12.5">• Boden (Natur), Arbeit, Kapital</text>
+  <text x="55" y="319" fill="#38bdf8" font-size="12.5">• (+ Wissen/Bildung in der IT-Wirtschaft)</text>
+  <text x="55" y="346" fill="#94a3b8" font-size="12">Bedürfnis -&gt; Bedarf -&gt; Nachfrage am Markt</text>
+
+  <!-- Nukleus 2 -->
+  <rect x="385" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="176" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 2 · KREISLAUF &amp; MÄRKTE</text>
+  <line x1="410" y1="188" x2="690" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="410" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Erweiterter Wirtschaftskreislauf:</text>
+  <text x="410" y="234" fill="#cbd5e1" font-size="12.5">• Haushalte &lt;-&gt; Unternehmen (Güter/Geld)</text>
+  <text x="410" y="253" fill="#cbd5e1" font-size="12.5">• + Staat (Steuern), Banken, Ausland</text>
+  <text x="410" y="280" fill="#f1f5f9" font-size="13.5" font-weight="600">Marktformen &amp; Preisbildung:</text>
+  <text x="410" y="300" fill="#cbd5e1" font-size="12.5">• Polypol (viele), Oligopol (wenige),</text>
+  <text x="410" y="317" fill="#cbd5e1" font-size="12.5">  Monopol (1 Anbieter)</text>
+  <text x="410" y="336" fill="#34d399" font-size="12.5">• Gleichgewichtspreis: Angebot = Nachfr.</text>
+  <text x="410" y="355" fill="#cbd5e1" font-size="12.5">• Soziale Marktwirtschaft (D): Schutz</text>
+
+  <!-- Nukleus 3 -->
+  <rect x="740" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#fbbf24" stroke-width="2"/>
+  <text x="905" y="176" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 3 · PRAXIS &amp; IHK-FALLE</text>
+  <line x1="765" y1="188" x2="1045" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="765" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Konjunktur &amp; Magisches Viereck:</text>
+  <text x="765" y="234" fill="#cbd5e1" font-size="12.5">• Preisstabilität, hohe Beschäftigung,</text>
+  <text x="765" y="251" fill="#cbd5e1" font-size="12.5">  Wachstum, außenwirtsch. Gleichgew.</text>
+  <text x="765" y="282" fill="#f87171" font-size="13.5" font-weight="600">Typische WiSo-Fallen:</text>
+  <text x="765" y="302" fill="#fca5a5" font-size="12.5">• Minimal- + Maximalprinzip nicht</text>
+  <text x="765" y="319" fill="#fca5a5" font-size="12.5">  gleichzeitig möglich („Optimum“ fehlt!)</text>
+  <text x="765" y="338" fill="#fca5a5" font-size="12.5">• Verkäufermarkt (Nachfrage &gt; Angebot)</text>
+  <text x="765" y="355" fill="#fca5a5" font-size="12.5">  vs. Käufermarkt (Angebot &gt; Nachfrage)</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="auto">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#060b16"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" rx="18" fill="url(#bgGlow)"/>
+  <rect width="1200" height="675" rx="18" fill="url(#isoGrid)" opacity="0.6"/>
+  
+  <g transform="translate(600, 337)">
+    <ellipse cx="0" cy="135" rx="220" ry="42" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.5"/>
+    <g transform="translate(-140, 20)">
+      <polygon points="0,-32 70,0 0,32 -70,0" fill="#3b82f6" stroke="#ffffff" stroke-width="1.5"/>
+      <polygon points="-70,0 0,32 0,88 -70,56" fill="#1e293b" stroke="#3b82f6" stroke-width="1.5"/>
+      <polygon points="70,0 0,32 0,88 70,56" fill="#fbbf24" fill-opacity="0.55" stroke="#3b82f6" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(140, 20)">
+      <polygon points="0,-32 70,0 0,32 -70,0" fill="#fbbf24" stroke="#ffffff" stroke-width="1.5"/>
+      <polygon points="-70,0 0,32 0,88 -70,56" fill="#1e293b" stroke="#fbbf24" stroke-width="1.5"/>
+      <polygon points="70,0 0,32 0,88 70,56" fill="#3b82f6" fill-opacity="0.55" stroke="#fbbf24" stroke-width="1.5"/>
+    </g>
+    <g transform="translate(0, -85)">
+      <polygon points="0,-40 85,0 0,40 -85,0" fill="#34d399" stroke="#ffffff" stroke-width="2" filter="url(#glow)"/>
+      <polygon points="-85,0 0,40 0,105 -85,65" fill="#0f172a" stroke="#34d399" stroke-width="1.8"/>
+      <polygon points="85,0 0,40 0,105 85,65" fill="#3b82f6" fill-opacity="0.65" stroke="#34d399" stroke-width="1.8"/>
+    </g>
+    <line x1="-140" y1="-15" x2="0" y2="-45" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="4 4"/>
+    <line x1="140" y1="-15" x2="0" y2="-45" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="4 4"/>
+  </g>
+  <path d="M 24 54 L 24 24 L 54 24" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 24 L 1176 24 L 1176 54" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.45"/>
+  <path d="M 24 621 L 24 651 L 54 651" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 651 L 1176 651 L 1176 621" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0.45"/>
+</svg>

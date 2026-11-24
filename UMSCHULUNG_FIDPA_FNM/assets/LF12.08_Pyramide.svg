@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="spitzeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="410" rx="14" fill="url(#bgGrad)"/>
+  <text x="550" y="30" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.2">PYRAMIDENSCHEMA® · LF 12.08: QUALITÄTSSICHERUNG, VALIDIERUNG &amp; UNIT-TESTS</text>
+
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="url(#spitzeGrad)" opacity="0.92"/>
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="none" stroke="#a5f3fc" stroke-width="1.5"/>
+  <text x="550" y="78" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">Mehrstufige Tests (Unit bis UAT), TDD (Red-Green-Refactor) und</text>
+  <text x="550" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">Cross-Validation liefern den objektiven Qualitätsnachweis im Projekt.</text>
+
+  <line x1="340" y1="131" x2="205" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="550" y1="131" x2="550" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+  <line x1="760" y1="131" x2="895" y2="185" stroke="#38bdf8" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <rect x="40" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.8"/>
+  <rect x="40" y="185" width="320" height="36" rx="12" fill="#8b5cf6" opacity="0.22"/>
+  <text x="56" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#c4b5fd">1. Testpyramide &amp; Arten</text>
+  <text x="56" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Unit → Integration → System →</text>
+  <text x="56" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Abnahmetest (UAT durch Kunde)</text>
+  <text x="56" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Black-Box: Äquivalenzklassen</text>
+  <text x="56" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  &amp; Grenzwerte</text>
+  <text x="56" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• White-Box: Codepfade &amp;</text>
+  <text x="56" y="350" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Überdeckung (Coverage)</text>
+
+  <rect x="390" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="1.8"/>
+  <rect x="390" y="185" width="320" height="36" rx="12" fill="#06b6d4" opacity="0.22"/>
+  <text x="406" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#67e8f9">2. Unit-Tests &amp; TDD (11.2.3)</text>
+  <text x="406" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Arrange – Act – Assert</text>
+  <text x="406" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• TDD-Zyklus:</text>
+  <text x="406" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  1. Red (Test schlägt fehl)</text>
+  <text x="406" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  2. Green (minimal lösen)</text>
+  <text x="406" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  3. Refactor (Code verbessern)</text>
+
+  <rect x="740" y="185" width="320" height="190" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.8"/>
+  <rect x="740" y="185" width="320" height="36" rx="12" fill="#10b981" opacity="0.22"/>
+  <text x="756" y="209" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#6ee7b7">3. ML- &amp; Daten-Tests</text>
+  <text x="756" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Schema- &amp; Null-Tests für ETL</text>
+  <text x="756" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• k-Fold Cross-Validation gegen</text>
+  <text x="756" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  zufällige Train/Test-Splits</text>
+  <text x="756" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Testprotokoll mit Datum &amp;</text>
+  <text x="756" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">  Ergebnis für IHK-Doku!</text>
+</svg>

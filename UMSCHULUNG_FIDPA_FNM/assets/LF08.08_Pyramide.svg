@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="spitzeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6d28d9"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="410" rx="14" fill="url(#bgGrad)"/>
+  <text x="550" y="30" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.2">PYRAMIDENSCHEMA® · LF 8.08: REST-APIS ENTWERFEN, IMPLEMENTIEREN &amp; TESTEN</text>
+
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="url(#spitzeGrad)" opacity="0.92"/>
+  <rect x="140" y="45" width="820" height="86" rx="12" fill="none" stroke="#a5f3fc" stroke-width="1.5"/>
+  <text x="550" y="62" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="700" fill="#e0f2fe" letter-spacing="1">SPITZE (KERNAUSSAGE)</text>
+  <text x="550" y="78" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">REST-APIs bilden CRUD-Operationen zustandslos auf HTTP-Methoden (GET/POST/PUT/DELETE)</text>
+  <text x="550" y="100" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="600" fill="#f8fafc">und Ressourcen-URLs ab, gesteuert über JSON/XML-Header, Statuscodes und OAuth2.</text>
+
+  <line x1="550" y1="131" x2="550" y2="155" stroke="#475569" stroke-width="2"/>
+  <line x1="200" y1="155" x2="900" y2="155" stroke="#475569" stroke-width="2"/>
+  <line x1="200" y1="155" x2="200" y2="175" stroke="#475569" stroke-width="2"/>
+  <line x1="550" y1="155" x2="550" y2="175" stroke="#475569" stroke-width="2"/>
+  <line x1="900" y1="155" x2="900" y2="175" stroke="#475569" stroke-width="2"/>
+
+  <rect x="35" y="175" width="330" height="210" rx="12" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.5"/>
+  <rect x="35" y="175" width="330" height="42" rx="12" fill="#4c1d95" opacity="0.7"/>
+  <text x="200" y="201" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#ddd6fe">Nukleus 1: CRUD &amp; Ressourcen</text>
+  <text x="56" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• URLs = Substantive (/language/3)</text>
+  <text x="56" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• GET = Read | POST = Create</text>
+  <text x="56" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• PUT = Update | DELETE = Delete</text>
+  <text x="56" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Zustandslos: jede Anfrage komplett</text>
+  <text x="56" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Filter per Query (?search=str)</text>
+
+  <rect x="385" y="175" width="330" height="210" rx="12" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+  <rect x="385" y="175" width="330" height="42" rx="12" fill="#064e3b" opacity="0.7"/>
+  <text x="550" y="201" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#6ee7b7">Nukleus 2: Header &amp; Codes</text>
+  <text x="406" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Accept: gewünschtes Antwortformat</text>
+  <text x="406" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Content-Type: Format des Bodys</text>
+  <text x="406" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• application/json vs. XML</text>
+  <text x="406" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• 200 OK / 201 Created</text>
+  <text x="406" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• 400 Bad Req / 401 / 404 / 501</text>
+
+  <rect x="735" y="175" width="330" height="210" rx="12" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5"/>
+  <rect x="735" y="175" width="330" height="42" rx="12" fill="#164e63" opacity="0.7"/>
+  <text x="900" y="201" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" fill="#a5f3fc">Nukleus 3: Auth &amp; Praxis</text>
+  <text x="756" y="245" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Schreibzugriff nie ungeschützt!</text>
+  <text x="756" y="266" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• OAuth2 / Bearer-Token + HTTPS</text>
+  <text x="756" y="287" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Keys serverseitig immer hashen</text>
+  <text x="756" y="308" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Schichten: Router -&gt; API -&gt; DBA</text>
+  <text x="756" y="329" font-family="Inter, system-ui, sans-serif" font-size="13.5" fill="#cbd5e1">• Testen mit curl / Postman / pytest</text>
+</svg>

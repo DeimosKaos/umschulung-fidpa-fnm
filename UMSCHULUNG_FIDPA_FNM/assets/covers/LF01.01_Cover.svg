@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="auto">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#060b16"/>
+    </radialGradient>
+    <radialGradient id="coreHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beamViolet" x1="50%" y1="50%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="beamEmerald" x1="50%" y1="50%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="beamAmber" x1="50%" y1="50%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.2"/>
+    </linearGradient>
+    <linearGradient id="beamCyan" x1="50%" y1="50%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="prismTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <linearGradient id="prismLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="prismRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- Background & Subtle Isometric Grid -->
+  <rect width="1200" height="675" rx="18" fill="url(#bgGlow)"/>
+  <rect width="1200" height="675" rx="18" fill="url(#isoGrid)" opacity="0.65"/>
+
+  <!-- Central Halo -->
+  <circle cx="600" cy="337" r="240" fill="url(#coreHalo)"/>
+  <circle cx="600" cy="337" r="195" fill="none" stroke="#334155" stroke-width="1" stroke-dasharray="6 8" opacity="0.7"/>
+  <circle cx="600" cy="337" r="275" fill="none" stroke="#1e293b" stroke-width="1.2" opacity="0.8"/>
+
+  <!-- Four Light Beams from Dual Core -->
+  <path d="M 555 310 L 265 160 L 290 135 L 570 295 Z" fill="url(#beamViolet)" opacity="0.55"/>
+  <path d="M 645 310 L 935 160 L 910 135 L 630 295 Z" fill="url(#beamEmerald)" opacity="0.55"/>
+  <path d="M 555 365 L 265 515 L 290 540 L 570 380 Z" fill="url(#beamAmber)" opacity="0.55"/>
+  <path d="M 645 365 L 935 515 L 910 540 L 630 380 Z" fill="url(#beamCyan)" opacity="0.65"/>
+
+  <!-- Glowing Connector Paths -->
+  <line x1="560" y1="312" x2="270" y2="160" stroke="#c084fc" stroke-width="2.5" filter="url(#glow)" opacity="0.85"/>
+  <line x1="640" y1="312" x2="930" y2="160" stroke="#34d399" stroke-width="2.5" filter="url(#glow)" opacity="0.85"/>
+  <line x1="560" y1="362" x2="270" y2="515" stroke="#fbbf24" stroke-width="2.5" filter="url(#glow)" opacity="0.85"/>
+  <line x1="640" y1="362" x2="930" y2="515" stroke="#22d3ee" stroke-width="3" filter="url(#glow)" opacity="0.95"/>
+
+  <!-- CENTRAL DUAL-CORE PRISM (Duale Ausbildung: Theory + Practice) -->
+  <g transform="translate(600, 337)">
+    <!-- Outer floating ring -->
+    <ellipse cx="0" cy="48" rx="95" ry="30" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.5"/>
+    <ellipse cx="0" cy="48" rx="115" ry="36" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4 6" opacity="0.45"/>
+    <!-- Left half (Theory / Cyan) + Right half (Practice / Amber) -->
+    <polygon points="0,-78 68,-38 0,2 -68,-38" fill="url(#prismTop)" stroke="#bae6fd" stroke-width="1.5"/>
+    <polygon points="-68,-38 0,2 0,76 -68,36" fill="url(#prismLeft)" stroke="#7dd3fc" stroke-width="1.5"/>
+    <polygon points="68,-38 0,2 0,76 68,36" fill="url(#prismRight)" stroke="#fde68a" stroke-width="1.5"/>
+    <!-- Inner glowing seam -->
+    <line x1="0" y1="2" x2="0" y2="76" stroke="#ffffff" stroke-width="2.5" filter="url(#glow)"/>
+    <circle cx="0" cy="-38" r="10" fill="#ffffff" filter="url(#glow)" opacity="0.9"/>
+  </g>
+
+  <!-- 1. TOP-LEFT: SOFTWARE DEVELOPMENT (Violet Isometric Code Cube) -->
+  <g transform="translate(220, 145)">
+    <circle cx="0" cy="0" r="88" fill="#1e1b4b" fill-opacity="0.72" stroke="#a855f7" stroke-width="2"/>
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#a855f7" stroke-width="1" stroke-dasharray="5 7" opacity="0.5"/>
+    <!-- Isometric cube -->
+    <polygon points="0,-42 40,-18 0,6 -40,-18" fill="#c084fc" opacity="0.9"/>
+    <polygon points="-40,-18 0,6 0,48 -40,24" fill="#6b21a8" opacity="0.95"/>
+    <polygon points="40,-18 0,6 0,48 40,24" fill="#9333ea" opacity="0.95"/>
+    <!-- Stylized code chevron symbols (pure shapes, no text) -->
+    <polyline points="-14,-8 -28,6 -14,20" fill="none" stroke="#f3e8ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="14,-8 28,6 14,20" fill="none" stroke="#f3e8ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="5" y1="-12" x2="-5" y2="24" stroke="#38bdf8" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- 2. TOP-RIGHT: SYSTEM INTEGRATION (Emerald Isometric Server Stack) -->
+  <g transform="translate(980, 145)">
+    <circle cx="0" cy="0" r="88" fill="#022c22" fill-opacity="0.72" stroke="#10b981" stroke-width="2"/>
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#10b981" stroke-width="1" stroke-dasharray="5 7" opacity="0.5"/>
+    <!-- 3 Stacked Isometric Blades -->
+    <g transform="translate(0, 22)">
+      <polygon points="0,-16 42,2 0,20 -42,2" fill="#059669" stroke="#6ee7b7" stroke-width="1.2"/>
+      <polygon points="-42,2 0,20 0,32 -42,14" fill="#064e3b"/>
+      <polygon points="42,2 0,20 0,32 42,14" fill="#047857"/>
+      <circle cx="-24" cy="14" r="2.5" fill="#34d399" filter="url(#glow)"/>
+    </g>
+    <g transform="translate(0, -2)">
+      <polygon points="0,-16 42,2 0,20 -42,2" fill="#10b981" stroke="#6ee7b7" stroke-width="1.2"/>
+      <polygon points="-42,2 0,20 0,32 -42,14" fill="#065f46"/>
+      <polygon points="42,2 0,20 0,32 42,14" fill="#059669"/>
+      <circle cx="-24" cy="14" r="2.5" fill="#a7f3d0" filter="url(#glow)"/>
+    </g>
+    <g transform="translate(0, -26)">
+      <polygon points="0,-16 42,2 0,20 -42,2" fill="#34d399" stroke="#a7f3d0" stroke-width="1.4"/>
+      <polygon points="-42,2 0,20 0,32 -42,14" fill="#047857"/>
+      <polygon points="42,2 0,20 0,32 42,14" fill="#10b981"/>
+      <circle cx="-24" cy="14" r="2.5" fill="#ffffff" filter="url(#glow)"/>
+    </g>
+  </g>
+
+  <!-- 3. BOTTOM-LEFT: DIGITAL NETWORKING / CPS (Amber Sensor & Waves) -->
+  <g transform="translate(220, 530)">
+    <circle cx="0" cy="0" r="88" fill="#451a03" fill-opacity="0.68" stroke="#f59e0b" stroke-width="2"/>
+    <circle cx="0" cy="0" r="98" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="5 7" opacity="0.5"/>
+    <!-- Concentric Signal Waves -->
+    <path d="M -38 -18 A 42 42 0 0 1 38 -18" fill="none" stroke="#fde68a" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+    <path d="M -54 -32 A 62 62 0 0 1 54 -32" fill="none" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" opacity="0.65"/>
+    <!-- Microchip Base -->
+    <polygon points="0,-6 36,12 0,30 -36,12" fill="#fbbf24" stroke="#fef3c7" stroke-width="1.4"/>
+    <polygon points="-36,12 0,30 0,44 -36,26" fill="#92400e"/>
+    <polygon points="36,12 0,30 0,44 36,26" fill="#d97706"/>
+    <!-- Pins -->
+    <line x1="-22" y1="33" x2="-22" y2="45" stroke="#fcd34d" stroke-width="2.5"/>
+    <line x1="-10" y1="39" x2="-10" y2="51" stroke="#fcd34d" stroke-width="2.5"/>
+    <line x1="10" y1="39" x2="10" y2="51" stroke="#fcd34d" stroke-width="2.5"/>
+    <line x1="22" y1="33" x2="22" y2="45" stroke="#fcd34d" stroke-width="2.5"/>
+    <circle cx="0" cy="12" r="7" fill="#ffffff" filter="url(#glow)"/>
+  </g>
+
+  <!-- 4. BOTTOM-RIGHT: DATA & PROCESS ANALYSIS (Highlighted FIDPA Cyan Target) -->
+  <g transform="translate(980, 530)">
+    <circle cx="0" cy="0" r="92" fill="#083344" fill-opacity="0.82" stroke="#22d3ee" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="104" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.75"/>
+    <!-- Ascending 3D Data Bars -->
+    <rect x="-42" y="10" width="16" height="32" rx="3" fill="#0284c7" stroke="#7dd3fc" stroke-width="1"/>
+    <rect x="-18" y="-8" width="16" height="50" rx="3" fill="#0ea5e9" stroke="#bae6fd" stroke-width="1"/>
+    <rect x="6" y="-28" width="16" height="70" rx="3" fill="#22d3ee" stroke="#e0f2fe" stroke-width="1.2"/>
+    <rect x="30" y="-44" width="16" height="86" rx="3" fill="#67e8f9" stroke="#ffffff" stroke-width="1.2"/>
+    <!-- Flowing Process Trend Curve -->
+    <path d="M -48 26 C -20 20, -10 -14, 14 -24 S 36 -46, 52 -52" fill="none" stroke="#fde047" stroke-width="3.5" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="52" cy="-52" r="5" fill="#ffffff" filter="url(#glow)"/>
+  </g>
+
+  <!-- Subtle Corner Framing Accents -->
+  <path d="M 24 54 L 24 24 L 54 24" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 24 L 1176 24 L 1176 54" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 24 621 L 24 651 L 54 651" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 651 L 1176 651 L 1176 621" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+</svg>

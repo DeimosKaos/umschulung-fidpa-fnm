@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.04 – Malware Teil 1: Viren, Würmer, Trojaner &amp; Backdoors</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Verbreitungswege, Tarnung &amp; typische Schutzmaßnahmen am Arbeitsplatz (Kersken 21.1.1–21.1.2)</text>
+
+  <!-- Col 1: Viren -->
+  <rect x="48" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#f87171" stroke-width="2"/>
+  <text x="207" y="106" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Viren (brauchen einen Wirt)</text>
+
+  <rect x="66" y="122" width="282" height="106" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Aufbau (5 Bestandteile)</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Vermehrungs- &amp; Erkennungsteil</text>
+  <text x="80" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Schadensteil (Payload)</text>
+  <text x="80" y="197" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Bedingungsteil (Auslöser/Datum)</text>
+  <text x="80" y="215" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Tarnungsteil (gegen User/AV)</text>
+
+  <rect x="66" y="236" width="282" height="136" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="80" y="256" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Wichtige Virentypen</text>
+  <text x="80" y="276" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Bootsektorviren (MBR / USB-Sticks)</text>
+  <text x="80" y="295" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Dateiviren (infizieren Programme)</text>
+  <text x="80" y="314" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Makroviren (z. B. Office VBA-Makros)</text>
+  <text x="80" y="333" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Stealth-Viren (manipulieren System)</text>
+  <text x="80" y="352" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Polymorphe Viren (ändern Gestalt!)</text>
+
+  <!-- Col 2: Würmer -->
+  <rect x="391" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="550" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. Würmer (kein Wirt nötig)</text>
+
+  <rect x="409" y="122" width="282" height="122" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="423" y="142" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Ausbreitung über Netzwerke</text>
+  <text x="423" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Nutzen E-Mail-Anhänge, Messenger,</text>
+  <text x="431" y="177" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Netzwerkfreigaben &amp; Softwarelücken</text>
+  <text x="423" y="197" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Trick: doppelte Dateiendung</text>
+  <text x="431" y="213" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">z. B. foto.jpg.vbs (wenn Endungen aus!)</text>
+  <text x="423" y="232" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Klassiker: Morris, ILOVEYOU, Nimda</text>
+
+  <rect x="409" y="252" width="282" height="120" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="423" y="272" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Trojaner &amp; Backdoors</text>
+  <text x="423" y="291" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Trojaner: harmlose Hülle + Schadcode</text>
+  <text x="423" y="309" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Backdoor: geheimer Fernzugriff auf PC</text>
+  <text x="423" y="327" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Erpressungstrojaner (Ransomware):</text>
+  <text x="431" y="343" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">verschlüsselt Daten → nur Backup hilft!</text>
+
+  <!-- Col 3: Gegenmaßnahmen -->
+  <rect x="734" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="893" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Schutzmaßnahmen (Kersken)</text>
+
+  <rect x="752" y="122" width="282" height="250" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="766" y="144" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Kombinierte Abwehr am PC:</text>
+  <text x="766" y="168" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">1. AV-Software + Wächter + Heuristik</text>
+  <text x="766" y="191" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">2. Regelmäßige Updates &amp; Patches</text>
+  <text x="774" y="207" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">(nie über E-Mail-Links updaten!)</text>
+  <text x="766" y="229" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">3. Desktop-Firewall aktivieren</text>
+  <text x="766" y="252" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">4. Tägliche / regelmäßige Backups</text>
+  <text x="766" y="275" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">5. Keine unerwarteten Anhänge öffnen</text>
+  <text x="766" y="298" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">6. Im Alltag keine Admin-Rechte nutzen</text>
+  <text x="766" y="321" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">7. Dateiendungen immer einblenden!</text>
+  <text x="766" y="344" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">8. Ad-Blocker / NoScript im Browser</text>
+</svg>

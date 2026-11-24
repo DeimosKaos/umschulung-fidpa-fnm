@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%" style="background:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gN1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spitze -->
+  <rect x="140" y="18" width="820" height="96" rx="12" fill="url(#gTop)" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="550" y="47" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="1.2">SPITZE · KERNPROBLEM &amp; ZIEL (LF 5.10)</text>
+  <text x="550" y="74" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Qualität einbauen: TDD, Unit-Tests &amp; saubere Dokumentation</text>
+  <text x="550" y="98" text-anchor="middle" fill="#cbd5e1" font-size="13.5">Red-Green-Refactor gegen „Banana Ware“, xUnit/JUnit 5 &amp; die 3 Dokumentationsarten</text>
+
+  <!-- Verbindungslinien -->
+  <path d="M550 114 L195 148 M550 114 L550 148 M550 114 L905 148" stroke="#475569" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Nukleus 1 -->
+  <rect x="30" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="176" text-anchor="middle" fill="#818cf8" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 1 · UNIT-TESTS &amp; XUNIT</text>
+  <line x1="55" y1="188" x2="335" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="55" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Warum automatisierte Tests?</text>
+  <text x="55" y="234" fill="#cbd5e1" font-size="12.5">• Code prüft Code exakter als Handtest</text>
+  <text x="55" y="253" fill="#cbd5e1" font-size="12.5">• Verhindert „Banana Ware“ (reift beim</text>
+  <text x="55" y="270" fill="#cbd5e1" font-size="12.5">  Kunden) &amp; Regressionen</text>
+  <text x="55" y="298" fill="#f1f5f9" font-size="13.5" font-weight="600">Aufbau (xUnit / JUnit 5):</text>
+  <text x="55" y="318" fill="#cbd5e1" font-size="12.5">• Parallelpfad: src/main vs. src/test</text>
+  <text x="55" y="337" fill="#cbd5e1" font-size="12.5">• @Test + assertEquals(erwartet, ist)</text>
+  <text x="55" y="356" fill="#38bdf8" font-size="12.5">• Teststufen: Unit → Integration → E2E</text>
+
+  <!-- Nukleus 2 -->
+  <rect x="385" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="176" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 2 · TDD &amp; DOKUMENTATION</text>
+  <line x1="410" y1="188" x2="690" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="410" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">TDD (Test-first) Zyklus:</text>
+  <text x="410" y="234" fill="#f87171" font-size="12.5">• 1. RED: Test schreiben -&gt; schlägt fehl</text>
+  <text x="410" y="253" fill="#34d399" font-size="12.5">• 2. GREEN: Minimalcode -&gt; Test grün</text>
+  <text x="410" y="272" fill="#38bdf8" font-size="12.5">• 3. REFACTOR: Code aufräumen + neu</text>
+  <text x="410" y="289" fill="#38bdf8" font-size="12.5">  testen (Clean Code that works)</text>
+  <text x="410" y="316" fill="#f1f5f9" font-size="13.5" font-weight="600">3 Dokumentations-Arten:</text>
+  <text x="410" y="336" fill="#cbd5e1" font-size="12.5">• Entwickler- (Code/API), Betriebs-</text>
+  <text x="410" y="353" fill="#cbd5e1" font-size="12.5">  (Admins) &amp; Benutzerdoku (Anwender)</text>
+
+  <!-- Nukleus 3 -->
+  <rect x="740" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#fbbf24" stroke-width="2"/>
+  <text x="905" y="176" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 3 · PRAXIS &amp; IHK-FALLE</text>
+  <line x1="765" y1="188" x2="1045" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="765" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Qualitätssicherung:</text>
+  <text x="765" y="234" fill="#cbd5e1" font-size="12.5">• Whitebox (mit Code) vs. Blackbox</text>
+  <text x="765" y="253" fill="#cbd5e1" font-size="12.5">• Code-Reviews &amp; mvn test / unittest</text>
+  <text x="765" y="282" fill="#f87171" font-size="13.5" font-weight="600">Typische IHK-Fallen:</text>
+  <text x="765" y="302" fill="#fca5a5" font-size="12.5">• Failure (Assertion nicht erfüllt) vs.</text>
+  <text x="765" y="319" fill="#fca5a5" font-size="12.5">  Error (unerwartete Exception)!</text>
+  <text x="765" y="338" fill="#fca5a5" font-size="12.5">• Nach Refactoring IMMER alle Tests</text>
+  <text x="765" y="355" fill="#fca5a5" font-size="12.5">  nochmals komplett ausführen!</text>
+</svg>

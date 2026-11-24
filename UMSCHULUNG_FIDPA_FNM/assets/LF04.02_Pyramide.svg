@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.02 – Datenschutz-Grundlagen: DSGVO &amp; BDSG</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Verbot mit Erlaubnisvorbehalt, 6 Grundsätze, TOMs, 72h-Meldepflicht &amp; DSB-Pflicht ab 20 Personen</text>
+
+  <!-- Col 1: Art. 5 & 6 -->
+  <rect x="48" y="80" width="328" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="212" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Grundsätze &amp; Erlaubnis</text>
+
+  <rect x="66" y="122" width="292" height="122" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">6 Grundsätze (Art. 5 DSGVO)</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Rechtmäßigkeit &amp; Transparenz</text>
+  <text x="80" y="178" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Zweckbindung &amp; Datenminimierung</text>
+  <text x="80" y="195" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Richtigkeit &amp; Speicherbegrenzung</text>
+  <text x="80" y="212" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Integrität &amp; Vertraulichkeit</text>
+  <text x="80" y="231" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">+ Rechenschaftspflicht (Nachweis!)</text>
+
+  <rect x="66" y="252" width="292" height="118" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="272" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Rechtsgrundlagen (Art. 6 DSGVO)</text>
+  <text x="80" y="291" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">Verbot mit Erlaubnisvorbehalt → nötig:</text>
+  <text x="80" y="310" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Einwilligung | Vertrag | Rechtspflicht</text>
+  <text x="80" y="328" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Lebenswichtig | Öffentl. Interesse</text>
+  <text x="80" y="346" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Berechtigtes Interesse (Abwägung)</text>
+
+  <!-- Col 2: Pflichten, TOMs, DSB -->
+  <rect x="394" y="80" width="328" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="558" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. TOMs, Panne &amp; DSB</text>
+
+  <rect x="412" y="122" width="292" height="84" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="426" y="142" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">TOMs (Art. 32 DSGVO)</text>
+  <text x="426" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Technisch: Verschlüsselung, Backups,</text>
+  <text x="434" y="177" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Pseudonymisierung, Zugangskontrolle</text>
+  <text x="426" y="195" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Organisatorisch: Rollen, Schulung, Regeln</text>
+
+  <rect x="412" y="214" width="292" height="72" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="426" y="234" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Datenpanne (Art. 33 / 34 DSGVO)</text>
+  <text x="426" y="253" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Binnen 72 Std. an Aufsichtsbehörde!</text>
+  <text x="426" y="271" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Bei hohem Risiko: Betroffene informieren</text>
+
+  <rect x="412" y="294" width="292" height="76" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="426" y="314" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Datenschutzbeauftragter (§ 38 BDSG)</text>
+  <text x="426" y="333" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Ab 20 Personen (Kopfzahl inkl. Azubis!),</text>
+  <text x="434" y="350" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">die ständig automatisiert Daten verarbeiten</text>
+
+  <!-- Col 3: Betroffenenrechte -->
+  <rect x="740" y="80" width="312" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="896" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Betroffenenrechte</text>
+
+  <rect x="758" y="122" width="276" height="248" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="772" y="144" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Rechte jeder Person (Art. 15–21):</text>
+  <text x="772" y="170" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">1. Auskunft (Art. 15): Was gespeichert?</text>
+  <text x="772" y="196" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">2. Berichtigung (Art. 16): Falsches fixen</text>
+  <text x="772" y="222" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">3. Löschung (Art. 17): „Vergessenwerden“</text>
+  <text x="772" y="248" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">4. Einschränkung (Art. 18): Sperrung</text>
+  <text x="772" y="274" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">5. Datenübertragbarkeit (Art. 20)</text>
+  <text x="772" y="300" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">6. Widerspruch (Art. 21): z. B. Werbung</text>
+  <text x="772" y="338" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Merke: BDSG ergänzt die EU-weite</text>
+  <text x="772" y="354" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">DSGVO für Deutschland (Öffnungsklauseln).</text>
+</svg>

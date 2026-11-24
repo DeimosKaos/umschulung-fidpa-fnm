@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%" style="background:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gN1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spitze -->
+  <rect x="140" y="18" width="820" height="96" rx="12" fill="url(#gTop)" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="550" y="47" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="1.2">SPITZE · KERNPROBLEM &amp; ZIEL (LF 1.05)</text>
+  <text x="550" y="74" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Schutz im Arbeitsleben: Verträge, Mitbestimmung &amp; Vorsorge</text>
+  <text x="550" y="98" text-anchor="middle" fill="#cbd5e1" font-size="13.5">Arbeitsvertrag/BBiG, KSchG, BetrVG (Betriebsrat), Tarifautonomie &amp; 5 Sozialversicherungen</text>
+
+  <!-- Verbindungslinien -->
+  <path d="M550 114 L195 148 M550 114 L550 148 M550 114 L905 148" stroke="#475569" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Nukleus 1 -->
+  <rect x="30" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="176" text-anchor="middle" fill="#818cf8" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 1 · VERTRAG &amp; KÜNDIGUNG</text>
+  <line x1="55" y1="188" x2="335" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="55" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Normenpyramide &amp; KSchG:</text>
+  <text x="55" y="234" fill="#cbd5e1" font-size="12.5">• Gesetz &gt; Tarif &gt; Betriebsvereinb. &gt; Vertrag</text>
+  <text x="55" y="253" fill="#cbd5e1" font-size="12.5">  (Günstigkeitsprinzip für Arbeitnehmer)</text>
+  <text x="55" y="272" fill="#cbd5e1" font-size="12.5">• Kündigung zwingend SCHRIFTLICH (§623)</text>
+  <text x="55" y="298" fill="#f1f5f9" font-size="13.5" font-weight="600">Kündigungsschutz (KSchG):</text>
+  <text x="55" y="318" fill="#38bdf8" font-size="12.5">• &gt; 6 Monate Betriebszugehörigkeit &amp;</text>
+  <text x="55" y="335" fill="#38bdf8" font-size="12.5">  &gt; 10 Beschäftigte (ordentlich vs. außer-)</text>
+  <text x="55" y="354" fill="#cbd5e1" font-size="12.5">• BBiG: Probezeit 1–4 Mon., danach nur</text>
+  <text x="55" y="371" fill="#cbd5e1" font-size="12.5">  aus wichtigem Grund kündbar!</text>
+
+  <!-- Nukleus 2 -->
+  <rect x="385" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="176" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 2 · BETRVG, TARIF &amp; SV</text>
+  <line x1="410" y1="188" x2="690" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="410" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">BetrVG &amp; Tarifrecht:</text>
+  <text x="410" y="234" fill="#cbd5e1" font-size="12.5">• Betriebsrat ab 5 ständigen Wahlber.</text>
+  <text x="410" y="253" fill="#cbd5e1" font-size="12.5">• JAV (Jugend-/Azubi-Vertretung)</text>
+  <text x="410" y="272" fill="#cbd5e1" font-size="12.5">• Tarifautonomie: Gewerksch. &lt;-&gt; AG-Verb.</text>
+  <text x="410" y="298" fill="#f1f5f9" font-size="13.5" font-weight="600">5 Säulen der Sozialversicherung:</text>
+  <text x="410" y="318" fill="#34d399" font-size="12.5">• Kranken-, Pflege-, Renten-, Arbeitslosen-</text>
+  <text x="410" y="335" fill="#34d399" font-size="12.5">  (ca. 50/50 AG+AN) &amp;</text>
+  <text x="410" y="354" fill="#34d399" font-size="12.5">• Unfallversicherung (100 % Arbeitgeber!)</text>
+
+  <!-- Nukleus 3 -->
+  <rect x="740" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#fbbf24" stroke-width="2"/>
+  <text x="905" y="176" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 3 · PRAXIS &amp; IHK-FALLE</text>
+  <line x1="765" y1="188" x2="1045" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="765" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Fristen &amp; Schutzgesetze:</text>
+  <text x="765" y="234" fill="#cbd5e1" font-size="12.5">• 3 Wochen Frist für Kündigungsschutzklage</text>
+  <text x="765" y="253" fill="#cbd5e1" font-size="12.5">• JArbSchG, MuSchG, ArbZG (max 8h/10h)</text>
+  <text x="765" y="282" fill="#f87171" font-size="13.5" font-weight="600">Typische WiSo-Fallen:</text>
+  <text x="765" y="302" fill="#fca5a5" font-size="12.5">• Kündigung per E-Mail/WhatsApp/mündlich</text>
+  <text x="765" y="319" fill="#fca5a5" font-size="12.5">  ist UNWIRKSAM (Papier + Unterschrift!)</text>
+  <text x="765" y="338" fill="#fca5a5" font-size="12.5">• Unfallversicherung zahlt ALLEIN der</text>
+  <text x="765" y="355" fill="#fca5a5" font-size="12.5">  Arbeitgeber (Berufsgenossenschaft)!</text>
+</svg>

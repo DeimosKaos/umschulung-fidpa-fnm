@@ -1,0 +1,51 @@
+{
+  "collapse-filter": true,
+  "search": "-file:00_Dashboard -tag:#fnm-recall",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#lf01 OR tag:#lf02",
+      "color": {
+        "a": 1,
+        "rgb": 3717880
+      }
+    },
+    {
+      "query": "tag:#lf03 OR tag:#lf04 OR tag:#lf09",
+      "color": {
+        "a": 1,
+        "rgb": 11044348
+      }
+    },
+    {
+      "query": "tag:#lf05 OR tag:#lf08 OR tag:#lf10c OR tag:#lf11c OR tag:#lf12c",
+      "color": {
+        "a": 1,
+        "rgb": 3462041
+      }
+    },
+    {
+      "query": "tag:#lf06 OR tag:#lf07",
+      "color": {
+        "a": 1,
+        "rgb": 16498468
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 1,
+  "nodeSizeMultiplier": 1.6,
+  "lineSizeMultiplier": 1.1,
+  "collapse-forces": false,
+  "centerStrength": 0.3,
+  "repelStrength": 13,
+  "linkStrength": 0.9,
+  "linkDistance": 95,
+  "scale": 0.36334235594756165,
+  "close": true
+}

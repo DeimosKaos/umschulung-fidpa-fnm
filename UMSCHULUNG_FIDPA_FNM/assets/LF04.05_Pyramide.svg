@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.05 – Malware Teil 2: Spy-/Adware, Phishing, Spam &amp; Social Engineering</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Täuschung von Browsern, Postfächern und Menschen – die „Schwachstelle Mensch“ schützen (Kersken 21.1.3 &amp; 21.2.2)</text>
+
+  <!-- Col 1: Spy- & Adware -->
+  <rect x="48" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="207" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Spy- &amp; Adware</text>
+
+  <rect x="66" y="122" width="282" height="124" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Verstecktes Tracking</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Adware: Werbung für Gratis-Software</text>
+  <text x="80" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Spyware: spioniert Surfverhalten aus</text>
+  <text x="80" y="197" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Programme „telefonieren nach Hause“</text>
+  <text x="80" y="215" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Produktaktivierung (Telefon &lt; Internet)</text>
+
+  <rect x="66" y="254" width="282" height="118" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="274" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Abwehr im Alltag</text>
+  <text x="80" y="294" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Drittanbieter-Cookies blockieren (DSGVO)</text>
+  <text x="80" y="313" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Tools wie Spybot Search &amp; Destroy</text>
+  <text x="80" y="332" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Ausgehende Firewall gegen Spionage-Apps</text>
+
+  <!-- Col 2: Phishing & Social Engineering -->
+  <rect x="391" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#f87171" stroke-width="2"/>
+  <text x="550" y="106" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. Phishing &amp; Social Engineering</text>
+
+  <rect x="409" y="122" width="282" height="124" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="423" y="142" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Phishing-Tricks (Datenklau)</text>
+  <text x="423" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Gefälschtes Corporate Design per Mail</text>
+  <text x="423" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Ähnliche Domains („voiksbank“, Subdomain)</text>
+  <text x="423" y="197" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Versteckte Image-Map-Links in HTML-Mails</text>
+  <text x="423" y="216" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">Schutz: HTTPS + Zertifikat prüfen, nie Mail-Link!</text>
+
+  <rect x="409" y="254" width="282" height="118" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="423" y="274" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Social Engineering (Mensch als Lücke)</text>
+  <text x="423" y="294" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Ausnutzen von Hilfsbereitschaft, Angst,</text>
+  <text x="431" y="310" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Autorität (Kevin Mitnick)</text>
+  <text x="423" y="330" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">Regel: IT/Polizei fragt NIE nach Passwörtern!</text>
+
+  <!-- Col 3: Spam, Hoaxes & Bots -->
+  <rect x="734" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="893" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Spam, Hoaxes &amp; Social Bots</text>
+
+  <rect x="752" y="122" width="282" height="130" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="142" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Spam / UCE (~90 % Mail-Traffic)</text>
+  <text x="766" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Gefälschte Absender (Webcam-Erpressung)</text>
+  <text x="766" y="179" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• NIE antworten / NIE „Abbestell-Link“ klicken!</text>
+  <text x="774" y="195" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">(bestätigt nur aktive Adresse für Spammer)</text>
+  <text x="766" y="215" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Lernende Filter (SpamAssassin: X-Spam-*)</text>
+
+  <rect x="752" y="260" width="282" height="112" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="766" y="280" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Hoaxes, Kettenmails &amp; Fake News</text>
+  <text x="766" y="299" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Hoax = „manueller Wurm“ (Adress-Ernte)</text>
+  <text x="766" y="317" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Nie weiterleiten → kommentarlos löschen</text>
+  <text x="766" y="335" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Social Bots &amp; Faktencheck (mimikama.at)</text>
+</svg>

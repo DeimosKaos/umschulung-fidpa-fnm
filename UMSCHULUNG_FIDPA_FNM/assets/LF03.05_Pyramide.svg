@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 3.05 – Drahtlose Netze (WLAN) &amp; Datenfernübertragung (DFÜ)</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">IEEE 802.11, CSMA/CA, BSS/ESS &amp; Sicherheit vs. PPP, DSL &amp; Mobilfunk (Kersken 5.4.2 &amp; 5.5)</text>
+
+  <!-- Left: WLAN -->
+  <rect x="48" y="80" width="492" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="294" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">1. WLAN (IEEE 802.11 – Nahbereich)</text>
+
+  <rect x="66" y="122" width="456" height="82" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Standards &amp; Funktechnik (2,4 GHz lizenzfrei &amp; 5 GHz)</text>
+  <text x="80" y="162" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• 802.11a/g (54 MBit/s, OFDM) | 802.11b (11/22 MBit/s, HR/DSSS)</text>
+  <text x="80" y="180" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• 802.11n (bis 600 MBit/s, MIMO) | 802.11ac (1 GBit/s, MU-MIMO)</text>
+  <text x="80" y="196" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Frequency Hopping (Hedy Lamarr) schützt gegen Störungen</text>
+
+  <rect x="66" y="212" width="456" height="72" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="232" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Netzzugang: CSMA/CA (Collision Avoidance)</text>
+  <text x="80" y="252" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Frei? → RTS (Sendeanfrage) → CTS (Empfang bereit) → Daten → ACK</text>
+  <text x="80" y="271" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Kollisionen werden vorher vermieden (anders als CSMA/CD).</text>
+
+  <rect x="66" y="292" width="456" height="82" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="312" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Betriebsmodi &amp; Sicherheit</text>
+  <text x="80" y="331" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• IBSS (Ad-hoc) | Infrastruktur-BSS (1 AP als Bridge) | ESS (AP-Verbund)</text>
+  <text x="80" y="349" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• AP puffert Frames für Stand-by-Geräte</text>
+  <text x="80" y="366" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">WEP (leicht knackbar) → WPA / WPA2 + MAC-Whitelist</text>
+
+  <!-- Right: DFÜ (PPP, DSL, Mobilfunk) -->
+  <rect x="560" y="80" width="492" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="806" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">2. Datenfernübertragung (PPP, DSL &amp; Mobilfunk)</text>
+
+  <rect x="578" y="122" width="456" height="68" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="592" y="142" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">PPP (Point-to-Point Protocol) statt SLIP</text>
+  <text x="592" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Authentifizierung (User/Passwort) → Parameter &amp; IP-Vergabe</text>
+  <text x="592" y="178" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Bei Ethernet-Anschluss an DSL-Modem: PPPoE</text>
+
+  <rect x="578" y="198" width="456" height="82" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="592" y="218" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">DSL (Digital Subscriber Line – de facto Standleitung)</text>
+  <text x="592" y="237" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• ADSL (Down &gt; Up, bis ADSL2+ 25 MBit/s) vs. SDSL (Down = Up)</text>
+  <text x="592" y="255" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• VDSL (52/16) &amp; VDSL2 (100/100 MBit/s = technisch SDSL)</text>
+  <text x="592" y="272" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Splitter (Frequenzweiche TAE/RJ-11) heute meist im DSL-Router</text>
+
+  <rect x="578" y="288" width="456" height="86" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="592" y="308" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Mobilfunk (2G–5G) &amp; Tethering</text>
+  <text x="592" y="327" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• 2G GSM / 2.5G GPRS → 3G EDGE, UMTS, HSPA (7,2/1,4)</text>
+  <text x="592" y="345" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• LTE (3.9G) / LTE-Advanced (4G) → 5G (≥ 2,8 GBit/s Down)</text>
+  <text x="592" y="363" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">Tethering = Handy als Modem; Vorsicht bei Roaming außerhalb EU!</text>
+</svg>

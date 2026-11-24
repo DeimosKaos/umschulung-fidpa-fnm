@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.06 – Netzwerk- &amp; Servergefahren: DoS, Rootkits, XSS &amp; SQL-Injection</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Wie Serverdienste, Sessions und Datenbanken angegriffen werden – und wie man sie schützt (Kersken 21.2.1)</text>
+
+  <!-- Col 1: Exploits & DoS -->
+  <rect x="48" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#f87171" stroke-width="2"/>
+  <text x="207" y="106" fill="#f87171" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Exploits &amp; DoS / DDoS</text>
+
+  <rect x="66" y="122" width="282" height="110" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Exploits (Softwarelücken)</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Ausnutzung von Overflows / Code-Lücken</text>
+  <text x="80" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Open Source oft schneller gepatcht</text>
+  <text x="80" y="197" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">Schutz: Sofort patchen, Advisories (heisec)</text>
+
+  <rect x="66" y="240" width="282" height="132" rx="6" fill="#0f172a" stroke="#ef4444" stroke-width="1.3"/>
+  <text x="80" y="260" fill="#fee2e2" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">DoS &amp; DDoS (Verfügbarkeit)</text>
+  <text x="80" y="279" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• DoS: Überlastung durch viele gültige</text>
+  <text x="88" y="295" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Anfragen (z. B. auch Ping of Death)</text>
+  <text x="80" y="315" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• DDoS: gespoofte IPs oder Hunderte</text>
+  <text x="88" y="331" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Trojaner-PCs greifen gleichzeitig an!</text>
+
+  <!-- Col 2: Cracker & Rootkits -->
+  <rect x="391" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="550" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. Cracker, Rootkits &amp; Sniffing</text>
+
+  <rect x="409" y="122" width="282" height="116" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="423" y="142" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Cracker &amp; Haftung</text>
+  <text x="423" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Missbrauch als Spam-Relay oder Lager</text>
+  <text x="423" y="179" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Betreiber haftet rechtlich für Server!</text>
+  <text x="423" y="198" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Klartext-Web (HTTP) ermöglicht Sniffing</text>
+  <text x="431" y="214" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">→ Man-in-the-Middle &amp; Session-Hijacking</text>
+
+  <rect x="409" y="246" width="282" height="126" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="423" y="266" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Rootkits (Tarnung im System)</text>
+  <text x="423" y="285" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Ersetzen Systemtools (z. B. ps), um</text>
+  <text x="431" y="301" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Backdoor-Prozesse unsichtbar zu machen</text>
+  <text x="423" y="321" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Erkennung: IDS (z. B. tripwire) VOR dem</text>
+  <text x="431" y="337" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11">ersten Netzanschluss installieren!</text>
+
+  <!-- Col 3: XSS & SQL-Injection -->
+  <rect x="734" y="80" width="318" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="893" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Webattacken: XSS &amp; SQLi</text>
+
+  <rect x="752" y="122" width="282" height="96" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="766" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Cross-Site-Scripting (XSS) &amp; CGI</text>
+  <text x="766" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Eingeschleustes JavaScript greift Daten</text>
+  <text x="774" y="177" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">beim Opfer im Browser ab</text>
+  <text x="766" y="196" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• CGI/Shell-Lücken: „; Befehl“ in Eingaben</text>
+
+  <rect x="752" y="226" width="282" height="146" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="766" y="246" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">SQL-Injection (SQLi)</text>
+  <text x="766" y="265" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Eingabe: test%'; delete from info;--</text>
+  <text x="766" y="283" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Verlängert SQL-Query &amp; löscht Tabellen!</text>
+  <text x="766" y="305" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Abwehr (Grundregel):</text>
+  <text x="766" y="323" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Jeder Nutzereingabe misstrauen!</text>
+  <text x="766" y="341" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Escaping &amp; Prepared Statements</text>
+</svg>

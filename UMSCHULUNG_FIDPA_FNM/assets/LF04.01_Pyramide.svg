@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.01 – Grundlagen Informationssicherheit &amp; Schutzziele (CIA)</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Die 3 Grundwerte, Abgrenzung zum Datenschutz &amp; das ökonomische Sicherheitsprinzip (Kersken 21.1 + BSI)</text>
+
+  <!-- Left: CIA Triade -->
+  <rect x="48" y="80" width="492" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="294" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">1. Die CIA-Triade (3 Grundwerte nach BSI)</text>
+
+  <rect x="66" y="122" width="456" height="68" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="143" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Vertraulichkeit (Confidentiality)</text>
+  <text x="80" y="162" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Nur Berechtigte dürfen Daten lesen/einsehen (z. B. Rechte, Verschlüsselung)</text>
+  <text x="80" y="179" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Gefahr bei Verletzung: Datendiebstahl, Mitlesen (Sniffing)</text>
+
+  <rect x="66" y="198" width="456" height="68" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="219" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Integrität (Integrity)</text>
+  <text x="80" y="238" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Daten sind vollständig, korrekt &amp; unverfälscht (z. B. Hashwerte, Signaturen)</text>
+  <text x="80" y="255" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Gefahr bei Verletzung: Manipulation, unbemerkte Verfälschung</text>
+
+  <rect x="66" y="274" width="456" height="98" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="295" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Verfügbarkeit (Availability) + Erweiterte Ziele</text>
+  <text x="80" y="314" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Systeme &amp; Daten stehen Berechtigten rechtzeitig bereit (Backups, USV, RAID)</text>
+  <text x="80" y="334" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">Erweitert: Authentizität (Echtheit), Verbindlichkeit (Nichtabstreitbarkeit)</text>
+  <text x="80" y="354" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Gefahr bei Verletzung: DoS-Ausfall, Hardwaredefekt, Ransomware</text>
+
+  <!-- Right: Sicherheit als Kompromiss & Abgrenzung -->
+  <rect x="560" y="80" width="492" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="806" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" text-anchor="middle">2. Realität &amp; Abgrenzung (IHK-Klassiker)</text>
+
+  <rect x="578" y="122" width="456" height="114" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="592" y="143" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Kein System ist zu 100 % sicher (Kersken 21)</text>
+  <text x="592" y="163" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• 100 % = kein Netz, keine fremden Datenträger, eigene Software</text>
+  <text x="592" y="182" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Praxis: IT-Sicherheit ist immer ein Kompromiss!</text>
+  <text x="592" y="201" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Grundsatz: Aufwand der Maßnahme ≤ Wert der geschützten Daten</text>
+  <text x="592" y="220" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Restrisiko bewusst bewerten &amp; per Backup absichern</text>
+
+  <rect x="578" y="246" width="456" height="126" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="592" y="267" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Informationssicherheit vs. Datenschutz</text>
+  <text x="592" y="288" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Informationssicherheit / Datensicherheit: schützt ALLE Daten</text>
+  <text x="600" y="305" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">(auch Konstruktionspläne, Finanzen, Papier &amp; Systeme) vor Verlust/Zugriff</text>
+  <text x="592" y="326" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Datenschutz (DSGVO): schützt das Persönlichkeitsrecht von</text>
+  <text x="600" y="343" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Menschen bei personenbezogenen Daten!</text>
+</svg>

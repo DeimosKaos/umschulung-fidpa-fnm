@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="auto">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="60%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#060b16"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="isoGrid" width="60" height="34.64" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 60 17.32 L 30 34.64 L 0 17.32 Z" fill="none" stroke="#1e293b" stroke-width="0.8" opacity="0.55"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" rx="18" fill="url(#bgGlow)"/>
+  <rect width="1200" height="675" rx="18" fill="url(#isoGrid)" opacity="0.6"/>
+  
+  <g transform="translate(600, 337) rotate(0)">
+    <circle cx="0" cy="0" r="190" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="8 8" opacity="0.5"/>
+    <path d="M -260 -70 L -110 -70 M -260 70 L -110 70" stroke="#818cf8" stroke-width="5" stroke-linecap="round"/>
+    <path d="M -110 -110 L -10 -110 A 110 110 0 0 1 -10 110 L -110 110 Z" fill="#38bdf8" fill-opacity="0.22" stroke="#38bdf8" stroke-width="4"/>
+    <circle cx="115" cy="0" r="16" fill="#f59e0b" filter="url(#glow)"/>
+    <path d="M 131 0 L 280 0" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" filter="url(#glow)"/>
+    <circle cx="-260" cy="-70" r="10" fill="#818cf8"/>
+    <circle cx="-260" cy="70" r="10" fill="#818cf8"/>
+    <polygon points="0,-160 18,-130 -18,-130" fill="#f59e0b" opacity="0.7"/>
+  </g>
+  <path d="M 24 54 L 24 24 L 54 24" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 24 L 1176 24 L 1176 54" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 24 621 L 24 651 L 54 651" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+  <path d="M 1146 651 L 1176 651 L 1176 621" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45"/>
+</svg>

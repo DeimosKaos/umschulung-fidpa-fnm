@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="100%" height="100%" style="background:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+  <defs>
+    <linearGradient id="gTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="gN1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Spitze -->
+  <rect x="140" y="18" width="820" height="96" rx="12" fill="url(#gTop)" stroke="#38bdf8" stroke-width="2.5"/>
+  <text x="550" y="47" text-anchor="middle" fill="#38bdf8" font-size="14" font-weight="700" letter-spacing="1.2">SPITZE · KERNPROBLEM &amp; ZIEL (LF 5.02)</text>
+  <text x="550" y="74" text-anchor="middle" fill="#f8fafc" font-size="18" font-weight="700">Software planbar bauen: Struktur vor der ersten Codezeile</text>
+  <text x="550" y="98" text-anchor="middle" fill="#cbd5e1" font-size="13.5">Lasten-/Pflichtenheft, Vorgehensmodelle (Wasserfall bis Scrum), Netzplan &amp; UML</text>
+
+  <!-- Verbindungslinien -->
+  <path d="M550 114 L195 148 M550 114 L550 148 M550 114 L905 148" stroke="#475569" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- Nukleus 1 -->
+  <rect x="30" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="176" text-anchor="middle" fill="#818cf8" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 1 · ZYKLUS &amp; MODELLE</text>
+  <line x1="55" y1="188" x2="335" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="55" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Lastenheft vs. Pflichtenheft:</text>
+  <text x="55" y="234" fill="#cbd5e1" font-size="12.5">• Lastenheft (Kunde): WAS &amp; WOFÜR</text>
+  <text x="55" y="253" fill="#cbd5e1" font-size="12.5">• Pflichtenheft (Auftragnehmer): WIE</text>
+  <text x="55" y="280" fill="#f1f5f9" font-size="13.5" font-weight="600">Wasserfall vs. Agil (Scrum/XP):</text>
+  <text x="55" y="300" fill="#cbd5e1" font-size="12.5">• Wasserfall: sequenziell, fixe Specs</text>
+  <text x="55" y="319" fill="#cbd5e1" font-size="12.5">• Scrum: Sprints, PO, Scrum Master,</text>
+  <text x="55" y="336" fill="#cbd5e1" font-size="12.5">  Daily, Review, Retrospektive</text>
+  <text x="55" y="362" fill="#38bdf8" font-size="12.5" font-weight="600">Tests: Unit → Integration → E2E</text>
+
+  <!-- Nukleus 2 -->
+  <rect x="385" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#34d399" stroke-width="2"/>
+  <text x="550" y="176" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 2 · NETZPLAN &amp; UML</text>
+  <line x1="410" y1="188" x2="690" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="410" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Netzplan (DIN 69901):</text>
+  <text x="410" y="234" fill="#cbd5e1" font-size="12.5">• FAZ/FEZ (vorwärts), SAZ/SEZ (rückw.)</text>
+  <text x="410" y="253" fill="#cbd5e1" font-size="12.5">• Kritischer Pfad: Puffer = 0</text>
+  <text x="410" y="280" fill="#f1f5f9" font-size="13.5" font-weight="600">4 wichtige UML-Diagramme:</text>
+  <text x="410" y="300" fill="#cbd5e1" font-size="12.5">• Use-Case: Akteure, &lt;&lt;include&gt;&gt;/&lt;&lt;extend&gt;&gt;</text>
+  <text x="410" y="319" fill="#cbd5e1" font-size="12.5">• Klasse: IS-A (Vererbung), HAS-A</text>
+  <text x="410" y="336" fill="#cbd5e1" font-size="12.5">  (Aggregation ◇ / Komposition ◆)</text>
+  <text x="410" y="355" fill="#cbd5e1" font-size="12.5">• Sequenz (zeitlich) &amp; Aktivität (Fluss)</text>
+
+  <!-- Nukleus 3 -->
+  <rect x="740" y="148" width="330" height="240" rx="12" fill="url(#gN1)" stroke="#fbbf24" stroke-width="2"/>
+  <text x="905" y="176" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.8">NUKLEUS 3 · PRAXIS &amp; IHK-FALLE</text>
+  <line x1="765" y1="188" x2="1045" y2="188" stroke="#334155" stroke-width="1.5"/>
+  <text x="765" y="214" fill="#f1f5f9" font-size="13.5" font-weight="600">Doku &amp; Qualität:</text>
+  <text x="765" y="234" fill="#cbd5e1" font-size="12.5">• Entwickler-, Betriebs-, Benutzerdoku</text>
+  <text x="765" y="253" fill="#cbd5e1" font-size="12.5">• Whitebox (Code) vs. Blackbox (Spec)</text>
+  <text x="765" y="282" fill="#f87171" font-size="13.5" font-weight="600">Typische IHK-Fallen:</text>
+  <text x="765" y="302" fill="#fca5a5" font-size="12.5">• Aggregation (leere Raute ◇): Teil</text>
+  <text x="765" y="319" fill="#fca5a5" font-size="12.5">  überlebt ohne Ganzes; Komposition</text>
+  <text x="765" y="336" fill="#fca5a5" font-size="12.5">  (gefüllt ◆): stirbt mit dem Ganzen!</text>
+  <text x="765" y="355" fill="#fca5a5" font-size="12.5">• Scrum Master ≠ Projektmanager!</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 410" width="1100" height="410">
+  <rect width="1100" height="410" fill="#0f172a" rx="14"/>
+  <text x="550" y="38" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle">LF 4.09 – Kryptografie: Symmetrisch, Asymmetrisch, Hash &amp; PKI</text>
+  <text x="550" y="60" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle">Schlüssellänge gegen Brute Force, Public-Key-Prinzip, Integrität &amp; Praxisprotokolle (Kersken 21.2.3)</text>
+
+  <!-- Col 1: Symmetrisch vs Asymmetrisch -->
+  <rect x="48" y="80" width="328" height="308" rx="10" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+  <text x="212" y="106" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">1. Verschlüsselungsverfahren</text>
+
+  <rect x="66" y="122" width="292" height="92" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="142" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Symmetrisch (1 geheimer Schlüssel)</text>
+  <text x="80" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Derselbe Schlüssel ver- &amp; entschlüsselt</text>
+  <text x="80" y="179" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Problem: sicherer Schlüsselaustausch!</text>
+  <text x="80" y="197" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Historisch: Cäsar / ROT13 (Häufigkeitsanalyse)</text>
+
+  <rect x="66" y="222" width="292" height="150" rx="6" fill="#0f172a" stroke="#0284c7" stroke-width="1.3"/>
+  <text x="80" y="242" fill="#e0f2fe" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Asymmetrisch (Public-Key-Verfahren)</text>
+  <text x="80" y="261" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Schlüsselpaar: Public Key + Private Key</text>
+  <text x="80" y="280" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Vertraulichkeit: Empfänger-Public-Key</text>
+  <text x="88" y="296" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">verschlüsselt → nur Private Key entschlüsselt</text>
+  <text x="80" y="317" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Wichtig: große Schlüssellänge schützt</text>
+  <text x="88" y="333" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">gegen Brute-Force-Angriffe!</text>
+
+  <!-- Col 2: Hash & Signatur -->
+  <rect x="394" y="80" width="328" height="308" rx="10" fill="#1e293b" stroke="#34d399" stroke-width="2"/>
+  <text x="558" y="106" fill="#34d399" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">2. Einweg, Hash &amp; Signatur</text>
+
+  <rect x="412" y="122" width="292" height="114" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="426" y="142" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Einwegverschlüsselung &amp; Hash</text>
+  <text x="426" y="161" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Nicht umkehrbar (Passwort-Speicherung)</text>
+  <text x="426" y="179" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Message-Digest (MAC): kurzer Fingerabdruck</text>
+  <text x="434" y="196" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">sichert Integrität (jede Änderung ändert Hash)</text>
+
+  <rect x="412" y="244" width="292" height="128" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1.3"/>
+  <text x="426" y="264" fill="#d1fae5" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">Digitale Signatur &amp; PKI / CA</text>
+  <text x="426" y="283" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Absender signiert mit seinem Private Key</text>
+  <text x="426" y="301" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11.5">• Empfänger prüft mit Absender-Public-Key</text>
+  <text x="426" y="319" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="11">• CA (Certification Authority) beglaubigt</text>
+  <text x="434" y="335" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">digitale Zertifikate (Echtheit / Authentizität)</text>
+
+  <!-- Col 3: Praxis -->
+  <rect x="740" y="80" width="312" height="308" rx="10" fill="#1e293b" stroke="#fbbf24" stroke-width="2"/>
+  <text x="896" y="106" fill="#fbbf24" font-family="system-ui, -apple-system, sans-serif" font-size="15.5" font-weight="700" text-anchor="middle">3. Einsatz in der IT-Praxis</text>
+
+  <rect x="758" y="122" width="276" height="250" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1.3"/>
+  <text x="772" y="146" fill="#fef3c7" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700">4 zentrale Krypto-Anwendungen:</text>
+  <text x="772" y="174" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">1. PGP / GnuPG (E-Mail)</text>
+  <text x="780" y="191" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Public-Key-Verschlüsselung &amp; Signatur</text>
+  <text x="772" y="218" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">2. SSL / TLS (HTTPS)</text>
+  <text x="780" y="235" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Verschlüsselung + CA-Zertifikat im Web</text>
+  <text x="772" y="262" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">3. SSH (PuTTY / OpenSSH)</text>
+  <text x="780" y="279" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Sichere Fernwartung statt Telnet-Klartext</text>
+  <text x="772" y="306" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12">4. VPN (Virtual Private Network)</text>
+  <text x="780" y="323" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11">Standorte tunneln (Krypto je nach Protokoll!)</text>
+</svg>
